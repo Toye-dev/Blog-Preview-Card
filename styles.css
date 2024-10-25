@@ -1,0 +1,144 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    color: hsl(0, 0%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+    html {
+        font-size: 100%;
+    }
+
+    .card {
+        background-color: hsl(0, 0%, 100%);
+        max-width: 297px;
+        height: 415px;
+        padding: 19px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 18px;
+        border: 1.8px solid hsl(0, 0%, 7%);
+        box-shadow: 9px 8px 0 -1px hsl(0, 0%, 7%);
+    }
+
+    .illustration {
+        border-radius: 10px;
+        margin-bottom: 9px;
+    }
+
+    .learning-tag p {
+        background: hsl(47, 88%, 63%);
+        margin-bottom: -1px;
+        border-radius: 4px;
+        width: 73px;
+        height: 20px;
+        padding-top:5px;
+        font-size: .9rem;
+        font-weight: 800;
+        text-align: center;
+        text-shadow: 0 0 1.2px;
+    }
+
+    .blog-date {
+        font-size: .9rem;
+        font-weight: 500;
+        text-shadow: 0 0 1.3px;
+    }
+
+    h1 {
+        margin-top:1px;
+        font-size: 1.5rem;
+        font-weight: 800;
+        text-shadow: 0 0 1.5px;
+    }
+
+    .title-description {
+        color: hsl(0, 0%, 58%);
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-top: 1px;
+        font-weight: 100;
+        text-shadow: 0 0 1px;
+    }
+
+    .avatar-div {
+        margin-top: 1px;
+        display: flex;
+    }
+
+    .avatar {
+        height: 27px;
+        margin-top: 4px;
+    }
+
+    h2 {
+        margin-left: 10px;
+        font-weight: 800;
+        font-size: .9rem;
+        text-shadow: 0 0 1.3px;
+    }
+
+    @media (max-width: 500px) {
+
+        html {
+            font-size: 80.5%; 
+        }
+
+        .card {
+            max-width: 220px;
+            height: 350px;
+            border: 1.3px solid hsl(0, 0%, 7%);
+        }
+
+        .illustration {
+            width: 100%;
+            border-radius: 8px;
+            background-size: cover;
+            
+        }
+
+        .learning-tag p {
+            margin-bottom: 1px;
+            border-radius: 3px;
+            width: 63px;
+            height: 17px;
+            padding-top:4px;
+            text-shadow: 0 0 0.5px;
+        }
+
+        .blog-date {
+            text-shadow: 0 0 .1px;
+        }
+
+        h1 {
+            margin-top:4px;
+            text-shadow: 0 0 .5px;
+        }
+
+        .title-description {
+            color: hsl(0, 0%, 42%);
+            margin-top: 1px;
+            text-shadow: 0 0 0px;
+            line-height: 1.6;
+        }
+
+        .avatar-div {
+            margin-top: 4px;
+        }
+
+        h2 {
+            text-shadow: 0 0 .5px;
+        }
+
+        .avatar {
+            margin-top: 1px;
+        }
+       
+
+
+    }
+
+    
